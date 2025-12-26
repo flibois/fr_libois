@@ -1,29 +1,99 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<title>François Libois</title>
-	</head>
-	<body>
-		<nav>
-    		<ul>
-        		<li><a href="/">Home</a></li>
-	        	<li><a href="/research">Research</a></li>
-        		<li><a href="/teaching">Teaching</a></li>
-        		<li><a href="/events">Scientific events</a></li>
-            <li><a href="/cv">CV</a></li>
-    		</ul>
-		</nav>
-		<div class="container">
-    		<div class="blurb">
-        		<h1>Welcome to the website of François Libois</h1>
-				<p>INRAE tenured researcher based at the Paris School of Economics. Applied microeconomist by training, my research lies at the intersection between development, environmental and institutional economics.  <a href="/about">Read more...</a></p>
-    		</div><!-- /.blurb -->
-		</div><!-- /.container -->
-		<footer>
-    		<ul>
-        		<li>email: first name (dot) last name (at) psemail (dot) eu</li>
-        		<li><a href="https://github.com/flibois">github.com/hankquinlan</a></li>
-			</ul>
-		</footer>
-	</body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>François LIBOIS – Ph.D., Researcher in Economics</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- UNamur green banner -->
+    <header class="banner">
+        <div class="container">
+            <h1>François LIBOIS</h1>
+            <p>Ph. D. in Economics, tenured researcher – INRAE and Paris School of Economics</p>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <ul>
+                <li><a href="#research">Research</a></li>
+                <li><a href="#publications">Publications</a></li>
+                <li><a href="#teaching">Teaching</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="https://github.com/flibois" target="_blank"><i class="fab fa-github"></i></a></li>
+                <li><a href="https://scholar.google.com/citations?user=..." target="_blank"><i class="fas fa-graduation-cap"></i></a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main content -->
+    <main>
+        <section class="hero">
+            <div class="container">
+                <img src="profile_pic.jpg" alt="Profile picture" class="profile-pic">
+                <h2>Welcome to my professional page</h2>
+                <p>
+                    INRAE tenured researcher based at the Paris School of Economics. 
+					Applied microeconomist by training, my research lies at the intersection between development, environmental and institutional economics
+                </p>
+            </div>
+        </section>
+
+        <!-- Research -->
+        <section id="research" class="section">
+            <div class="container">
+                <h2><i class="fas fa-search"></i> Research</h2>
+                <p>
+                    My current research focuses on the management of renewable natural resources and agriculture.
+                    I am particularly interested in forests, fisheries and externalities.
+                </p>
+                <a href="research.html" class="btn">Learn more</a>
+            </div>
+        </section>
+
+        <!-- Publications -->
+        <section id="publications" class="section">
+            <div class="container">
+                <h2><i class="fas fa-book"></i> Publications</h2>
+                <p>
+                    Find here my recent articles, working papers, and conference presentations.
+                </p>
+                <a href="publications.html" class="btn">View publications</a>
+            </div>
+        </section>
+
+        <!-- Teaching -->
+        <section id="teaching" class="section">
+            <div class="container">
+                <h2><i class="fas fa-chalkboard-teacher"></i> Teaching</h2>
+                <p>
+                    I teach courses in Microeconomics, Natural resources and development economics as well as a tricks and tools about the use of geocoded data in economics.
+                </p>
+                <a href="teaching.html" class="btn">View courses</a>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact" class="section">
+            <div class="container">
+                <h2><i class="fas fa-envelope"></i> Contact</h2>
+                <p>
+                    Email: firstname (dot) lastname (at) psemail (dot) eu <br>
+                    Office: R6-55, 48 Boulevard Jourdan, 75014 Paris, France
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>© 2026 François Libois – All rights reserved</p>
+        </div>
+    </footer>
+</body>
 </html>
